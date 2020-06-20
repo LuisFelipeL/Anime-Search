@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Anime</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Anime Search</h1>
+      <div class="header__search">
+        <input
+          id="input-search"
+          class="header__input"
+          type="text"
+          placeholder="Escribe cualquier titulo anime..."
+        />
+        <i class="header__icon fa fa-search"></i>
+      </div>
+    </header>
+    <button class="options-btn">
+      Opciones Avanzadas <i class="fas fa-arrow-down"></i>
+    </button>
+    <div class="options">
+      <form class="options__form">
+        <h1 class="options__title">Selecciona para filtrar:</h1>
+        <div class="options__form-content"></div>
+        <input class="options__btn" type="submit" value="Enviar" />
+      </form>
+    </div>
+    <div class="cards">
+      <div class="cards__content"></div>
+    </div>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
